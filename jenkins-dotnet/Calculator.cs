@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace jenkins_dotnet
 {
-    class Program
+    public class Calculator
     {
-        static void Main(string[] args)
+        public static int Add(int x, int y)
         {
-            Console.WriteLine(Calculator.Add(1, 2));
-            Console.ReadLine();
+            return x + y;
         }
     }
 }
